@@ -1,0 +1,21 @@
+server:
+  port: 8091
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Micro_AuthServiceDataBase
+    username: postgres
+    password: batuhan595
+    driver-class-name: org.postgresql.Driver
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+

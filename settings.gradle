@@ -1,0 +1,3 @@
+rootProject.name = 'Microservices_03_ProjectDemo1'
+include 'AuthService'
+
